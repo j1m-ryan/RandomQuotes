@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  background-color: burlywood;
+  font-family: 'Ma Shan Zheng', cursive;
+  justify-content: space-evenly;
+  font-size: 3vw;
+  box-shadow: 5px 6px #888888;
+  color:darkslategrey;
+  
+}
+.logo{
+    width: 25%;
+  height: auto;
+}
+.mainbody{
+    margin-top: 3vh;
+    display: flex;
+  
+  font-family: 'Ma Shan Zheng', cursive;
+  justify-content: flex-end;
+  font-size: 3vw;
+  
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 4vw;
+    width: 50vw;
+    background-color: burlywood;
+    box-shadow: 5px 6px #888888;
+  color:darkslategrey;
+}
+.quotes{
+    background-color: burlywood;
+    box-shadow: 5px 6px #888888;
+  color:darkslategrey;
+}
+.controls:hover{
+    cursor: pointer;
+}

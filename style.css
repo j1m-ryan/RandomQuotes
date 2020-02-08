@@ -46,6 +46,7 @@ header {
 }
 .tweet{
   color:rgb(60, 118, 138);
+  text-decoration: none;
 }
 .quotes{
     width: 70vw;

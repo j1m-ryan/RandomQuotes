@@ -38,7 +38,8 @@ header {
     align-items: center;
     margin-right: 10px;
     font-size: 4vw;
-    width: 50vw;
+    width: 30vw;
+    max-width: 30vw;
     background-color: burlywood;
     box-shadow: 5px 6px #888888;
   color:darkslategrey;
@@ -47,6 +48,7 @@ header {
   color:rgb(60, 118, 138);
 }
 .quotes{
+    width: 70vw;
     text-indent: 5%;
     display: flex;
     justify-content: center;

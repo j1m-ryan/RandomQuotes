@@ -62,6 +62,6 @@ header {
 
   
 }
-.controls:hover{
+#next:hover{
     cursor: pointer;
 }

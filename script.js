@@ -12,20 +12,21 @@ window.onload = function() {
 
   const btn = document.getElementById("next");
   const tweetBtn = document.getElementById("tweet-quote");
-  var tweet="https://twitter.com/intent/tweet?text="+owQuotes[0]+" --Oscar Wilde"
-  btn.onclick = function() {
-    document.getElementById("text").innerHTML =
-      owQuotes[Math.floor(Math.random() * owQuotes.length)];
-      var quoteToTweet=document.getElementById("text").innerHTML;
-       tweet = "https://twitter.com/intent/tweet?text="+quoteToTweet+" --Oscar Wilde"
-
+  var tweet =
+    "https://twitter.com/intent/tweet?text=" + owQuotes[0] + " --Oscar Wilde";
+  btn.onclick = function fun() {
       
-
-     
-
-
+    var lastQuote = document.getElementById("text").innerHTML;
+    var newQuote = owQuotes[Math.floor(Math.random() * owQuotes.length)];
+  
+    document.getElementById("text").innerHTML = newQuote;
+    var quoteToTweet = document.getElementById("text").innerHTML;
+    tweet =
+      "https://twitter.com/intent/tweet?text=" +
+      quoteToTweet +
+      " --Oscar Wilde";
   };
-  tweetBtn.onclick=function(){
-    document.getElementById("tweet-quote").href=tweet
-  }
+  tweetBtn.onclick = function() {
+    document.getElementById("tweet-quote").href = tweet;
+  };
 };

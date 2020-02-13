@@ -1,6 +1,6 @@
 # RandomQuotes
 An Oscar Wilde quote machine  
-[Live site](http://ryanjim.me/RandomQuotes/)  
+[Live site](http://jimryan.eu/RandomQuotes/)  
 
 ![](ow.gif)  
 
